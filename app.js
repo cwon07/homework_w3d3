@@ -42,3 +42,17 @@ $('#container').append($h4);
 const $h5 = $('<h5>'); 
 $h5.text('Holly Wand with Unicorn Hair Core');
 $('#container').append($h5);
+
+////////////////////////////////////////////////////////////////////////
+////////////// YEAR 3
+////////////////////////////////////////////////////////////////////////
+
+const $ul = $('<ul>');
+$ul.attr('storage', 'trunk');
+$ul.append("<li>'butter beer'</li>");
+$ul.append("<li class='secret'>invisibility cloak</li>");
+$ul.append("<li class='secret'>magic map</li>");
+$ul.append("<li class='secret'>time turner</li>");
+$ul.append("<li class='cat'>leash</li>");
+$ul.append("<li>Bertie Bott's Every Flavor [Jelly] Beans.</li>");
+$('#container').append($ul);

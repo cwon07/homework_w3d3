@@ -13,7 +13,7 @@ if (typeof jQuery == 'undefined'){
 // });
 
 const $container = $('#container');
-console.log($container)
+console.log($container);
 
 const $h1 = $('<h1>');
 console.log($h1);
@@ -72,6 +72,14 @@ $('#container').append($h6);
 ////////////// YEAR 5
 ////////////////////////////////////////////////////////////////////////
 
+$('#container').remove($h5);
+$('#container').removeAttr("<li>'butter beer'</li>");
+$h5.text('The most magical wand in the whole wide world');
+$('#container').append($h5);
+$h5.css('color', 'indigo');
+$('#container').detatch($h4);
+$('#container').remove($h4);
+$h4.before($h5);
 
 ////////////////////////////////////////////////////////////////////////
 ////////////// YEAR 6

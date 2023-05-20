@@ -2,3 +2,17 @@ body {
     background-color: #F8F7FF;
     text-align: center;
 }
+
+table {
+    border: gray 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border: gray 1px solid;
+}
+
+td {
+    border: gray 1px solid;
+}
